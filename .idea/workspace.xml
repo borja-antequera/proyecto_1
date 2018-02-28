@@ -20,6 +20,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="975">
               <caret line="74" column="60" lean-forward="true" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
               <folding />
@@ -32,6 +33,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+=======
+            <state relative-caret-position="-935">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+>>>>>>> aecec5fcf271b8ee7b4234e57ae26a8edc0439a2
               <folding />
             </state>
           </provider>
@@ -97,6 +102,48 @@
               <item name="proyecto_1" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="agencia_viajes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agencia_viajes" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agencia_viajes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agencia_viajes" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agencia_viajes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agencia_viajes" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agencia_viajes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agencia_viajes" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agencia_viajes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agencia_viajes" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agencia_viajes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agencia_viajes" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="agencia_viajes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="agencia_viajes" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -142,14 +189,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1519743086814</updated>
+<<<<<<< HEAD
       <workItem from="1519743099213" duration="18244000" />
       <workItem from="1519828546390" duration="952000" />
       <workItem from="1519829526525" duration="5521000" />
+=======
+      <workItem from="1519743099213" duration="22712000" />
+>>>>>>> aecec5fcf271b8ee7b4234e57ae26a8edc0439a2
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="24717000" />
+=======
+    <option name="totallyTimeSpent" value="22712000" />
+>>>>>>> aecec5fcf271b8ee7b4234e57ae26a8edc0439a2
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -221,6 +276,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="975">
           <caret line="74" column="60" lean-forward="true" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
           <folding />
@@ -231,6 +287,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="1" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
+=======
+        <state relative-caret-position="-935">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+>>>>>>> aecec5fcf271b8ee7b4234e57ae26a8edc0439a2
           <folding />
         </state>
       </provider>
