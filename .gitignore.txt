@@ -1,2 +1,2 @@
-server_bower_components
-server_package-lock
+bower_components
+package-lock

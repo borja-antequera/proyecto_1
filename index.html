@@ -6,12 +6,79 @@
     <title>Agencia de viajes</title>
     <link type="text/css" rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <style type="text/css">
+        #cabecera{
+            background: url("assets/images/nathan-anderson-316188-unsplash.jpg") no-repeat center center;
+            background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            height:800px;
+        }
+        nav{
+            font-size: 20px;
+            list-style-type: none;
+            text-align: center;
+            color: white;
+        }
+        nav li{
+            display: inline;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        #rsociales{
+            list-style-type: none;
+            text-align: right;
+        }
+        #rsociales li{
+            display: inline;
+            height: 20px;
+        }
+        #viaja{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        .gallery{
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+        }
+        .gallery li{
+            display: -webkit-flex;
+            display: flex;
+            background-color: antiquewhite;
+            margin: 10px;
+        }
+        #quien{
+            background:url("assets/images/traveler.jpg");
+            background-size: cover;
+            -moz-background-size: cover;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            height: 500px;
+        }
+        #texto{
+            background-color: white;
+            height: 360px;
+            width: 400px;
+            position: relative;
+            top: 40px;
+            left: 200px;
+            padding: 20px;
+        }
 
         <!-- ---------------------------------------------------------- -->
 
     </style>
 </head>
     <section id="cabecera">
+        <div id="logo">
+            <figure>
+                <img src="assets/images/iconoweb.png" alt="icono" height="200px" width="200px">
+            </figure>
+            <h4>GeeksHubs Travel</h4>
+        </div>
         <nav>
             <ul>
                 <li>Destinos</li>
@@ -76,25 +143,30 @@
                 </div>
                 <div class="box">
                     <figure>
-                        <img src="assets/images/galeria/mykonos.jpg" alt="Mykonos" width="320px" height="200px">
+                        <img src="assets/images/galeria/amsterdam.jpg" alt="Amsterdam" width="320px" height="200px">
                     </figure>
                     <h3>Titular</h3>
                     <p>Texto pie de foto</p>
                 </div>
                 <div class="box">
                     <figure>
-                        <img src="assets/images/galeria/mykonos.jpg" alt="Mykonos" width="320px" height="200px">
+                        <img src="assets/images/galeria/roma.jpg" alt="Rome" width="320px" height="200px">
                     </figure>
                     <h3>Titular</h3>
                     <p>Texto pie de foto</p>
                 </div>
             </li>
-
         </ul>
-
     </section>
-    <section>
-
+    <section id="quien">
+        <div id="texto">
+        <h4>QUIENES SOMOS</h4>
+        <p>GeeksHubs Travel es una agencia de viaje online creada en 2009 por un equipo de viajeros entudiastas
+            que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado más
+            de 500 viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir
+            ampliando horizontes poco a poco.</p>
+            <p>DESCUBRIR</p>
+        </div>
     </section>
     <section>
 
