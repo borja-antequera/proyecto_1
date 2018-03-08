@@ -4,182 +4,129 @@
     <meta charset="UTF-8">
     <title>Agencia de viajes</title>
     <link type="text/css" rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <style type="text/css">
-        #cabecera {
-            background: url("assets/images/nathan-anderson-316188-unsplash.jpg") no-repeat center center;
-            background-size: cover;
-            -moz-background-size: cover;
-            -webkit-background-size: cover;
-            -o-background-size: cover;
-            height: 800px;
-        }
+    <link type="text/css" rel="stylesheet" href="css/estilos-borja.css" media="screen"/>
 
-        nav {
-            font-size: 20px;
-            list-style-type: none;
-            text-align: center;
-            color: white;
-        }
-
-        nav li {
-            display: inline;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-
-        #rsociales {
-            list-style-type: none;
-            text-align: right;
-        }
-
-        #rsociales li {
-            display: inline;
-            height: 20px;
-        }
-
-        #viaja {
-            color: white;
-            font-size: 40px;
-            text-align: center;
-        }
-
-        .gallery {
-            display: -webkit-flex;
-            display: flex;
-            -webkit-flex-wrap: wrap;
-            flex-wrap: wrap;
-        }
-
-        .gallery li {
-            display: -webkit-flex;
-            display: flex;
-            background-color: antiquewhite;
-            margin: 10px;
-        }
-
-        #quien {
-            background: url("assets/images/traveler.jpg");
-            background-size: cover;
-            -moz-background-size: cover;
-            -webkit-background-size: cover;
-            -o-background-size: cover;
-            height: 500px;
-        }
-
-        #texto {
-            background-color: white;
-            height: 360px;
-            width: 400px;
-            position: relative;
-            top: 40px;
-            left: 200px;
-            padding: 20px;
-        }
-
-        <!--
-        ----------------------------------------------------------
-
-        -->
-
-    </style>
 </head>
+<body>
 <section id="cabecera">
-    <div id="logo">
-        <figure>
-            <img src="assets/images/iconoweb.png" alt="icono" height="200px" width="200px">
-        </figure>
-        <h4>GeeksHubs Travel</h4>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/images/iconoweb.png" alt="Logo Empresa" height="120px" width="177px">
+            </div>
+            <div class="col-md-4">
+                <nav>
+                    <ul class="nav navbar">
+                        <li><a href="#destinos" title="Destinos" class="col-md-4">Destinos</a></li>
+                        <li><a href="#quien" title="Quien" class="col-md-4">Quiénes somos</a></li>
+                        <li><a href="#" title="donde" class="col-md-4">Dónde estamos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-4">
+                <nav>
+                    <ul class="nav nav-pills">
+                        <li>
+                            <a href="#" title="Twitter" class="col-md-5">
+                                <img src="assets/images/twitter.png" alt="Twitter" width="25px" height="25px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Whatsapp" class="col-md-5">
+                                <img src="assets/images/whatspapp.png" alt="Whatsapp" width="25px" height="25px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Facebook" class="col-md-5">
+                                <img src="assets/images/facebook.png" alt="Facebook" width="25px" height="25px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Linkedn" class="col-md-5">
+                                <img src="assets/images/linkedin.png" alt="Linkedn" width="25px" height="25px">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="YouTube" class="col-md-5">
+                                <img src="assets/images/youtube.png" alt="YouTube" width="25px" height="25px">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
     </div>
-    <nav>
-        <ul>
-            <li>Destinos</li>
-            <li>Quiénes somos</li>
-            <li>Dónde estamos</li>
-        </ul>
-    </nav>
-    <ul id="rsociales">
-        <li>
-            <img src="assets/images/iconos/Twitter.png" alt="Twitter" width="25px" height="25px">
-        </li>
-        <li>
-            <img src="assets/images/iconos/Technorati.png" alt="Whatsapp" width="25px" height="25px">
-        </li>
-        <li>
-            <img src="assets/images/iconos/Facebook.png" alt="Facebook" width="25px" height="25px">
-        </li>
-        <li>
-            <img src="assets/images/iconos/Linkedin.png" alt="Linkdn" width="25px" height="25px">
-        </li>
-        <li>
-            <img src="assets/images/iconos/Youtube.png" alt="Linkdn" width="25px" height="25px">
-        </li>
-    </ul>
-    <div id="viaja">
-        <h1>Viaja!</h1>
-        <p>Descubre lugares maravillosos!<br>
-            <span class="amarillo">Ver destinos</span>
+    <div id="slogan" class="container text-center">
+        <p id="slogan_title">Viaja!</p>
+        <p>Descubre lugares maravillosos!<p>
+        <br>
+        <p>Ver destinos</p>
     </div>
+</section>
+<a name="destinos">
+    <section id="destinos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="box col-md-4  imagen">
+                    <div class="mykonos">
+                        <h4>Save 90$ pay only</h4>
+                        <h4>359$</h4>
+                    </div>
+                    <p>Mykonos</p>
+                </div>
+                <div class="box col-md-4">
+                    <div class="london">
+                        <h4>Save 75$ pay only</h4>
+                        <h4>729$</h4>
+                    </div>
+                    <p>London</p>
+                </div>
+                <div class="box col-md-4">
+                    <div class="dublin">
+                        <h4>Save 35$ pay only</h4>
+                        <h4>519$</h4>
+                    </div>
+                    <p>Dublin</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box col-md-4">
+                    <div class="paris">
+                        <h4>Save 90$ pay only</h4>
+                        <h4>359$</h4>
+                    </div>
+                    <p>Paris</p>
+                </div>
+                <div class="box col-md-4">
+                    <div class="amsterdam">
+                        <h4>Save 75$ pay only</h4>
+                        <h4>729$</h4>
+                    </div>
+                    <p>Amsterdam</p>
+                </div>
+                <div class="box col-md-4">
+                    <div class="rome">
+                        <h4>Save 35$ pay only</h4>
+                        <h4>519$</h4>
+                    </div>
+                    <p>Rome</p>
+                </div>
+            </div>
+        </div>
+</a>
+</section>
 
-</section>
-<section id="destinos">
-    <ul class="gallery">
-        <li>
-            <div class="box">
-                <figure>
-                    <img src="assets/images/galeria/mykonos.jpg" alt="Mykonos" width="320px" height="200px">
-                </figure>
-                <h3>Titular</h3>
-                <p>Texto pie de foto</p>
-            </div>
-            <div class="box">
-                <figure>
-                    <img src="assets/images/galeria/londres.jpg" alt="London" width="320px" height="200px">
-                </figure>
-                <h3>Titular</h3>
-                <p>Texto pie de foto</p>
-            </div>
-            <div class="box">
-                <figure>
-                    <img src="assets/images/galeria/dublin.jpg" alt="Dublin" width="320px" height="200px">
-                </figure>
-                <h3>Titular</h3>
-                <p>Texto pie de foto</p>
-            </div>
-            <div class="box">
-                <figure>
-                    <img src="assets/images/galeria/paris.jpg" alt="Paris" width="320px" height="200px">
-                </figure>
-                <h3>Titular</h3>
-                <p>Texto pie de foto</p>
-            </div>
-            <div class="box">
-                <figure>
-                    <img src="assets/images/galeria/amsterdam.jpg" alt="Amsterdam" width="320px" height="200px">
-                </figure>
-                <h3>Titular</h3>
-                <p>Texto pie de foto</p>
-            </div>
-            <div class="box">
-                <figure>
-                    <img src="assets/images/galeria/roma.jpg" alt="Rome" width="320px" height="200px">
-                </figure>
-                <h3>Titular</h3>
-                <p>Texto pie de foto</p>
-            </div>
-        </li>
-    </ul>
-</section>
 <section id="quien">
-    <div id="texto">
-        <h4>QUIENES SOMOS</h4>
-        <p>GeeksHubs Travel es una agencia de viaje online creada en 2009 por un equipo de viajeros entudiastas
-            que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado
-            más
-            de 500 viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir
-            ampliando horizontes poco a poco.</p>
-        <p>DESCUBRIR</p>
-    </div>
+    <a name="quien">
+        <div id="texto" class="jumbotron text-center">
+            <h4>QUIÉNES SOMOS</h4>
+            <br>
+            <p>GeeksHubs Travel es una agencia de viaje online creada en 2009 por un equipo de viajeros entudiastas que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado más de 500 viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir ampliando horizontes poco a poco.</p>
+            <button type="button" class="btn btn-primary">DESCUBRIR</button>
+        </div>
+    </a>
 </section>
+</body>
 <section>
     <div></br></div>
     <div class="wrapper">
