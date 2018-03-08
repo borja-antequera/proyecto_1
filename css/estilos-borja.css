@@ -38,34 +38,34 @@
             background-repeat: no-repeat;
         }
         .london{
-            background-image: url("assets/images/londres.jpg");
+            background-image: url("../assets/images/londres.jpg");
             height: 240px;
             background-repeat: no-repeat;
         }
         .dublin{
-            background-image: url("assets/images/dublin.jpg");
+            background-image: url("../assets/images/dublin.jpg");
             height: 240px;
             background-repeat: no-repeat;
         }
         .paris{
-            background-image: url("assets/images/paris.jpg");
+            background-image: url("../assets/images/paris.jpg");
             height: 240px;
             background-repeat: no-repeat;
         }
         .amsterdam{
-            background-image: url("assets/images/amsterdam.jpg");
+            background-image: url("../assets/images/amsterdam.jpg");
             height: 240px;
             background-repeat: no-repeat;
         }
         .rome{
-            background-image: url("assets/images/roma.jpg");
+            background-image: url("../assets/images/roma.jpg");
             height: 240px;
             background-repeat: no-repeat;
 
         }
 
         #quien{
-            background:url("assets/images/traveler.jpg");
+            background:url("../assets/images/traveler.jpg");
             background-size: cover;
             -moz-background-size: cover;
             -webkit-background-size: cover;
