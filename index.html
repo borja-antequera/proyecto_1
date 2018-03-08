@@ -1,64 +1,72 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Agencia de viajes</title>
     <link type="text/css" rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <style type="text/css">
-        #cabecera{
+        #cabecera {
             background: url("assets/images/nathan-anderson-316188-unsplash.jpg") no-repeat center center;
             background-size: cover;
             -moz-background-size: cover;
             -webkit-background-size: cover;
             -o-background-size: cover;
-            height:800px;
+            height: 800px;
         }
-        nav{
+
+        nav {
             font-size: 20px;
             list-style-type: none;
             text-align: center;
             color: white;
         }
-        nav li{
+
+        nav li {
             display: inline;
             margin-left: 10px;
             margin-right: 10px;
         }
-        #rsociales{
+
+        #rsociales {
             list-style-type: none;
             text-align: right;
         }
-        #rsociales li{
+
+        #rsociales li {
             display: inline;
             height: 20px;
         }
-        #viaja{
+
+        #viaja {
             color: white;
             font-size: 40px;
             text-align: center;
         }
-        .gallery{
+
+        .gallery {
             display: -webkit-flex;
             display: flex;
             -webkit-flex-wrap: wrap;
             flex-wrap: wrap;
         }
-        .gallery li{
+
+        .gallery li {
             display: -webkit-flex;
             display: flex;
             background-color: antiquewhite;
             margin: 10px;
         }
-        #quien{
-            background:url("assets/images/traveler.jpg");
+
+        #quien {
+            background: url("assets/images/traveler.jpg");
             background-size: cover;
             -moz-background-size: cover;
             -webkit-background-size: cover;
             -o-background-size: cover;
             height: 500px;
         }
-        #texto{
+
+        #texto {
             background-color: white;
             height: 360px;
             width: 400px;
@@ -68,154 +76,190 @@
             padding: 20px;
         }
 
-        <!-- ---------------------------------------------------------- -->
+        <!--
+        ----------------------------------------------------------
+
+        -->
 
     </style>
 </head>
-    <section id="cabecera">
-        <div id="logo">
-            <figure>
-                <img src="assets/images/iconoweb.png" alt="icono" height="200px" width="200px">
-            </figure>
-            <h4>GeeksHubs Travel</h4>
-        </div>
-        <nav>
-            <ul>
-                <li>Destinos</li>
-                <li>Quiénes somos</li>
-                <li>Dónde estamos</li>
-            </ul>
-        </nav>
-        <ul id="rsociales">
-            <li>
-                <img src="assets/images/iconos/Twitter.png" alt="Twitter" width="25px" height="25px">
-            </li>
-            <li>
-                <img src="assets/images/iconos/Technorati.png" alt="Whatsapp" width="25px" height="25px">
-            </li>
-            <li>
+<section id="cabecera">
+    <div id="logo">
+        <figure>
+            <img src="assets/images/iconoweb.png" alt="icono" height="200px" width="200px">
+        </figure>
+        <h4>GeeksHubs Travel</h4>
+    </div>
+    <nav>
+        <ul>
+            <li>Destinos</li>
+            <li>Quiénes somos</li>
+            <li>Dónde estamos</li>
+        </ul>
+    </nav>
+    <ul id="rsociales">
+        <li>
+            <img src="assets/images/iconos/Twitter.png" alt="Twitter" width="25px" height="25px">
+        </li>
+        <li>
+            <img src="assets/images/iconos/Technorati.png" alt="Whatsapp" width="25px" height="25px">
+        </li>
+        <li>
             <img src="assets/images/iconos/Facebook.png" alt="Facebook" width="25px" height="25px">
-            </li>
-            <li>
-                <img src="assets/images/iconos/Linkedin.png" alt="Linkdn" width="25px" height="25px">
-            </li>
-            <li>
-                <img src="assets/images/iconos/Youtube.png" alt="Linkdn" width="25px" height="25px">
-            </li>
-        </ul>
-        <div id="viaja">
-            <h1>Viaja!</h1>
-            <p>Descubre lugares maravillosos!<br>
-                <span class="amarillo">Ver destinos</span>
-        </div>
+        </li>
+        <li>
+            <img src="assets/images/iconos/Linkedin.png" alt="Linkdn" width="25px" height="25px">
+        </li>
+        <li>
+            <img src="assets/images/iconos/Youtube.png" alt="Linkdn" width="25px" height="25px">
+        </li>
+    </ul>
+    <div id="viaja">
+        <h1>Viaja!</h1>
+        <p>Descubre lugares maravillosos!<br>
+            <span class="amarillo">Ver destinos</span>
+    </div>
 
-    </section>
-    <section id="destinos">
-        <ul class="gallery">
-            <li>
-                <div class="box">
-                    <figure>
-                        <img src="assets/images/galeria/mykonos.jpg" alt="Mykonos" width="320px" height="200px">
-                    </figure>
-                    <h3>Titular</h3>
-                    <p>Texto pie de foto</p>
-                </div>
-                <div class="box">
-                    <figure>
-                        <img src="assets/images/galeria/londres.jpg" alt="London" width="320px" height="200px">
-                    </figure>
-                    <h3>Titular</h3>
-                    <p>Texto pie de foto</p>
-                </div>
-                <div class="box">
-                    <figure>
-                        <img src="assets/images/galeria/dublin.jpg" alt="Dublin" width="320px" height="200px">
-                    </figure>
-                    <h3>Titular</h3>
-                    <p>Texto pie de foto</p>
-                </div>
-                <div class="box">
-                    <figure>
-                        <img src="assets/images/galeria/paris.jpg" alt="Paris" width="320px" height="200px">
-                    </figure>
-                    <h3>Titular</h3>
-                    <p>Texto pie de foto</p>
-                </div>
-                <div class="box">
-                    <figure>
-                        <img src="assets/images/galeria/amsterdam.jpg" alt="Amsterdam" width="320px" height="200px">
-                    </figure>
-                    <h3>Titular</h3>
-                    <p>Texto pie de foto</p>
-                </div>
-                <div class="box">
-                    <figure>
-                        <img src="assets/images/galeria/roma.jpg" alt="Rome" width="320px" height="200px">
-                    </figure>
-                    <h3>Titular</h3>
-                    <p>Texto pie de foto</p>
-                </div>
-            </li>
-        </ul>
-    </section>
-    <section id="quien">
-        <div id="texto">
+</section>
+<section id="destinos">
+    <ul class="gallery">
+        <li>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/galeria/mykonos.jpg" alt="Mykonos" width="320px" height="200px">
+                </figure>
+                <h3>Titular</h3>
+                <p>Texto pie de foto</p>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/galeria/londres.jpg" alt="London" width="320px" height="200px">
+                </figure>
+                <h3>Titular</h3>
+                <p>Texto pie de foto</p>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/galeria/dublin.jpg" alt="Dublin" width="320px" height="200px">
+                </figure>
+                <h3>Titular</h3>
+                <p>Texto pie de foto</p>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/galeria/paris.jpg" alt="Paris" width="320px" height="200px">
+                </figure>
+                <h3>Titular</h3>
+                <p>Texto pie de foto</p>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/galeria/amsterdam.jpg" alt="Amsterdam" width="320px" height="200px">
+                </figure>
+                <h3>Titular</h3>
+                <p>Texto pie de foto</p>
+            </div>
+            <div class="box">
+                <figure>
+                    <img src="assets/images/galeria/roma.jpg" alt="Rome" width="320px" height="200px">
+                </figure>
+                <h3>Titular</h3>
+                <p>Texto pie de foto</p>
+            </div>
+        </li>
+    </ul>
+</section>
+<section id="quien">
+    <div id="texto">
         <h4>QUIENES SOMOS</h4>
         <p>GeeksHubs Travel es una agencia de viaje online creada en 2009 por un equipo de viajeros entudiastas
-            que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado más
+            que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado
+            más
             de 500 viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir
             ampliando horizontes poco a poco.</p>
-            <p>DESCUBRIR</p>
-        </div>
-    </section>
-    <section>
-        <div class="wrapper">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-5">
-                        <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.4494198593693!2d-0.35599339191923934!3d39.48176539062383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604898947abad3%3A0x5aae0e0b7fa0358a!2sGeeksHubs+Space+Valencia!5e0!3m2!1ses!2ses!4v1518723864279"
-                                width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-                    <div class="col-md-5">
-                        <p>E: enquiry@artiotravel.com <br>
-                            P: 0264 123 4567
-                        </p>
-                        <p>
-                            Give use a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on business days.
-                        </p>
-                        <p>We are open from 8.30 AM - 4.00 PM week days.
-                        </p>
-                        <form role="form">
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <input value="Name*" type="text" class="form-control">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input value="Email*" type="email" class="form-control">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input value="Phone" type="tel" class="form-control">
-                                </div>
-                                <div class="form-group col-md-6">
-                                    <input value="Country" type="tel" class="form-control">
-                                </div>
-                                <div class="clearfix"></div>
-                                <div class="form-group col-md-12">
-                                    <textarea class="form-control" rows="4">Message</textarea>
-                                    <p>*PLEASE COMPLETE ALL FIELDS CORRECTLY</p>
-                                </div>
-                                <div class="form-group col-lg-12">
-                                    <input type="hidden" name="save" value="contact">
-                                    <button type="submit" class="btn-warning"><b>Enviar mensaje</b></button>
-                                </div>
+        <p>DESCUBRIR</p>
+    </div>
+</section>
+<section>
+    <div></br></div>
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.4494198593693!2d-0.35599339191923934!3d39.48176539062383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604898947abad3%3A0x5aae0e0b7fa0358a!2sGeeksHubs+Space+Valencia!5e0!3m2!1ses!2ses!4v1518723864279"
+                            width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <p>E: enquiry@artiotravel.com <br>
+                        P: 0264 123 4567
+                    </p>
+                    <p>
+                        Give use a call or drop by anytime, we endeavour to answer all enquiries within 24 hours on
+                        business days.
+                    </p>
+                    <p>We are open from 8.30 AM - 4.00 PM week days.
+                    </p>
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <input value="Name*" type="text" class="form-control">
                             </div>
-                        </form>
-                    </div>
+                            <div class="form-group col-md-6">
+                                <input value="Email*" type="email" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input value="Phone" type="tel" class="form-control">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <input value="Country" type="tel" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-md-12">
+                                <textarea class="form-control" rows="4">Message</textarea>
+                                <p>*PLEASE COMPLETE ALL FIELDS CORRECTLY</p>
+                            </div>
+                            <div class="form-group col-lg-12">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="button" onclick="alert('Mensaje enviado')" class="btn-warning btn-lg"><b>Enviar mensaje</b></button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
-    <footer>
+    </div>
+</section>
+<footer>
+    <div class="row well text-light bg-dark">
+        <div class="col-md-2 col-sm-6 text-sm-left">
+    </div>
+        <div class="col-md-4 col-sm-6 text-sm-left">
+            <h5>¿NECESITAS AYUDA?</h5>0264 123 4567<br>
+            <a href="#" onclick="alert('Si es urgente llámanos. ¡Gracias!');" class="text-white bg-dark" title="enquiry@geekshubstravels.com">enquiry@geekshubstravels.com
+            </a><br>
+            Lun-Vie: 9:30-19:00 Sab: 10:00-14:00
+        </div>
+        <div class="col-md-3 col-sm-6 text-sm-left">
+            <h5>INFORMACIÓN</h5> Quienes somos <br> Preguntas frecuentes <br> Política de privacidad <br> Condiciones
+            generales <br> Aviso legal <br> Contacto <br> Programa de puntos <br>
+        </div>
+        <div class="col-md-3 col-sm-6 text-sm-left">
+            <h5>SUSCRIBETE A LA NEWSLETTER</h5>
+            <div class="form-group col-md-12">
+                <input value="Correo electrónico" type="tel" class="form-control">
 
-    </footer>
+            </div>
+            <div class="form-group col-md-12">
+                <input type="hidden" name="save" value="contact">
+                <button type="button" onclick="alert('Te has suscrito correctamente a nuestra Newsletter')" class="btn-warning btn-lg"><b>SUSCRIBETE</b></button>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center text-light bg-dark">
+            &copy; GeeksHubs Travels 2018 Todos los derechos reservados
+        </div>
+    </div>
+</footer>
 </html>
