@@ -1,132 +1,314 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 <head>
+
     <meta charset="UTF-8">
+    <meta name="viewport" content="with=device-width, initial-scale=1">
     <title>Agencia de viajes</title>
     <link type="text/css" rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!--<script src="bower_components/popper.js/dist/popper.min.js"></script>-->
+
+    <!-- <script src="bower_components/jQuery/src/jquery.js"></script> -->
+
     <link type="text/css" rel="stylesheet" href="css/estilos-borja.css" media="screen"/>
+
 
 </head>
 <body>
-<section id="cabecera">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="assets/images/iconoweb.png" alt="Logo Empresa" height="120px" width="177px">
-            </div>
-            <div class="col-md-4">
-                <nav>
-                    <ul class="nav navbar">
-                        <li><a href="#destinos" title="Destinos" class="col-md-4">Destinos</a></li>
-                        <li><a href="#quienquien" title="Quien" class="col-md-4">Quiénes somos</a></li>
-                        <li><a href="#" title="donde" class="col-md-4">Dónde estamos</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="col-md-4">
-                <nav>
-                    <ul class="nav nav-pills">
-                        <li>
-                            <a href="#" title="Twitter" class="col-md-5">
-                                <img src="assets/images/twitter.png" alt="Twitter" width="25px" height="25px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Whatsapp" class="col-md-5">
-                                <img src="assets/images/whatspapp.png" alt="Whatsapp" width="25px" height="25px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Facebook" class="col-md-5">
-                                <img src="assets/images/facebook.png" alt="Facebook" width="25px" height="25px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="Linkedn" class="col-md-5">
-                                <img src="assets/images/linkedin.png" alt="Linkedn" width="25px" height="25px">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#" title="YouTube" class="col-md-5">
-                                <img src="assets/images/youtube.png" alt="YouTube" width="25px" height="25px">
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-    <div id="slogan" class="container text-center">
-        <p id="slogan_title">Viaja!</p>
-        <p>Descubre lugares maravillosos!<p>
-        <br>
-        <p>Ver destinos</p>
-    </div>
-</section>
-<a name="destinos">
-    <section id="destinos">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="box col-md-4  imagen">
-                    <div class="mykonos">
-                        <h4>Save 90$ pay only</h4>
-                        <h4>359$</h4>
-                    </div>
-                    <p>Mykonos</p>
-                </div>
-                <div class="box col-md-4">
-                    <div class="london">
-                        <h4>Save 75$ pay only</h4>
-                        <h4>729$</h4>
-                    </div>
-                    <p>London</p>
-                </div>
-                <div class="box col-md-4">
-                    <div class="dublin">
-                        <h4>Save 35$ pay only</h4>
-                        <h4>519$</h4>
-                    </div>
-                    <p>Dublin</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="box col-md-4">
-                    <div class="paris">
-                        <h4>Save 90$ pay only</h4>
-                        <h4>359$</h4>
-                    </div>
-                    <p>Paris</p>
-                </div>
-                <div class="box col-md-4">
-                    <div class="amsterdam">
-                        <h4>Save 75$ pay only</h4>
-                        <h4>729$</h4>
-                    </div>
-                    <p>Amsterdam</p>
-                </div>
-                <div class="box col-md-4">
-                    <div class="rome">
-                        <h4>Save 35$ pay only</h4>
-                        <h4>519$</h4>
-                    </div>
-                    <p>Rome</p>
-                </div>
-            </div>
-        </div>
-</a>
-</section>
+    <section id="cabecera">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
 
-<section id="quien">
-    <a name="quienquien">
-        <div id="texto" class="jumbotron text-center">
-            <h4>QUIÉNES SOMOS</h4>
-            <br>
-            <p>GeeksHubs Travel es una agencia de viaje online creada en 2009 por un equipo de viajeros entudiastas que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado más de 500 viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir ampliando horizontes poco a poco.</p>
-            <button type="button" class="btn btn-primary">DESCUBRIR</button>
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active" id="isla">
+                    <div class="container-fluid">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-4">
+                                <img src="assets/images/iconoweb.png" alt="Logo Empresa" height="120px" width="177px">
+                            </div>
+                            <div class="col-md-4">
+                                <nav>
+                                    <ul class="nav container-fluid menu">
+                                        <li><a href="#destinos" title="Destinos" class="col-md-4" style="color: white">Destinos</a></li>
+                                        <li><a href="#quienquien" title="Quien" class="col-md-4" style="color: white">Quiénes somos</a></li>
+                                        <li><a href="#" title="donde" class="col-md-4" style="color: white">Dónde estamos</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-md-4">
+                                <nav>
+                                    <div class="wrapper">
+                                        <ul class="nav social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                            <li>
+                                                <a href="#" title="Twitter" class="col-md-5">
+                                                    <img class="fa fa-twitter" src="assets/images/twitter.png" alt="Twitter" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Whatsapp" class="col-md-5">
+                                                    <img class="fa fa-whatsapp" src="assets/images/whatspapp.png" alt="Whatsapp" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Facebook" class="col-md-5">
+                                                    <img class="fa fa-facebook" src="assets/images/facebook.png" alt="Facebook" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Linkedn" class="col-md-5">
+                                                    <img class="fa fa-linkedin" src="assets/images/linkedin.png" alt="Linkedn" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="YouTube" class="col-md-5">
+                                                    <img class="fa fa-youtube" src="assets/images/youtube.png" alt="YouTube" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slogan container text-center">
+                        <p class="slogan_title">Viaja!</p>
+                        <p>Descubre lugares maravillosos!<p>
+                        <br>
+                        <button type="button" class="btn btn-outline-light btn-lg">Ver destinos</button>
+                    </div>
+
+                </div>
+                <div class="carousel-item" id="acantilado">
+                    <div class="container-fluid">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-4">
+                                <img src="assets/images/iconoweb.png" alt="Logo Empresa" height="120px" width="177px">
+                            </div>
+                            <div class="col-md-4">
+                                <nav>
+                                    <ul class="nav container-fluid menu">
+                                        <li><a href="#destinos" title="Destinos" class="col-md-4" style="color: white">Destinos</a></li>
+                                        <li><a href="#quienquien" title="Quien" class="col-md-4" style="color: white">Quiénes somos</a></li>
+                                        <li><a href="#" title="donde" class="col-md-4" style="color: white">Dónde estamos</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-md-4">
+                                <nav>
+                                    <div class="wrapper">
+                                        <ul class="nav social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                            <li>
+                                                <a href="#" title="Twitter" class="col-md-5">
+                                                    <img class="fa fa-twitter" src="assets/images/twitter.png" alt="Twitter" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Whatsapp" class="col-md-5">
+                                                    <img class="fa fa-whatsapp" src="assets/images/whatspapp.png" alt="Whatsapp" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Facebook" class="col-md-5">
+                                                    <img class="fa fa-facebook" src="assets/images/facebook.png" alt="Facebook" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Linkedn" class="col-md-5">
+                                                    <img class="fa fa-linkedin" src="assets/images/linkedin.png" alt="Linkedn" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="YouTube" class="col-md-5">
+                                                    <img class="fa fa-youtube" src="assets/images/youtube.png" alt="YouTube" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="container text-center slogan">
+                        <p class="slogan_title">Descubre!</p>
+                        <p>Vayamos al fin del mundo!<p>
+                        <br>
+                        <button type="button" class="btn btn-outline-light btn-lg">Ver destinos</button>
+                    </div>
+
+                </div>
+                <div class="carousel-item" id="ski">
+                    <div class="container-fluid">
+                        <div class="row justify-content-md-center">
+                            <div class="col-md-4">
+                                <img src="assets/images/iconoweb.png" alt="Logo Empresa" height="120px" width="177px">
+                            </div>
+                            <div class="col-md-4">
+                                <nav>
+                                    <ul class="nav container-fluid menu">
+                                        <li><a href="#destinos" title="Destinos" class="col-md-4" style="color: white">Destinos</a></li>
+                                        <li><a href="#quienquien" title="Quien" class="col-md-4" style="color: white">Quiénes somos</a></li>
+                                        <li><a href="#" title="donde" class="col-md-4" style="color: white">Dónde estamos</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col-md-4">
+                                <nav>
+                                    <div class="wrapper">
+                                        <ul class="nav social-icons icon-circle icon-zoom list-unstyled list-inline">
+                                            <li>
+                                                <a href="#" title="Twitter" class="col-md-5">
+                                                    <img class="fa fa-twitter" src="assets/images/twitter.png" alt="Twitter" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Whatsapp" class="col-md-5">
+                                                    <img class="fa fa-whatsapp" src="assets/images/whatspapp.png" alt="Whatsapp" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Facebook" class="col-md-5">
+                                                    <img class="fa fa-facebook" src="assets/images/facebook.png" alt="Facebook" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="Linkedn" class="col-md-5">
+                                                    <img class="fa fa-linkedin" src="assets/images/linkedin.png" alt="Linkedn" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#" title="YouTube" class="col-md-5">
+                                                    <img class="fa fa-youtube" src="assets/images/youtube.png" alt="YouTube" width="25px" height="25px">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container text-center slogan">
+                        <p class="slogan_title">Emociónate!</p>
+                        <p>Tanto mundo por ver!<p>
+                        <br>
+                        <button type="button" class="btn btn-outline-light btn-lg">Ver destinos</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+
+
+
+
+
+
         </div>
+    </section>
+    <a name="destinos">
+        <section id="destinos">
+            <div class="container">
+                <div class="row">
+                    <div class="box col-md-4 col-center">
+                        <div class="mykonos">
+                            <p class="ahorro">Save 90$ pay only</p>
+                            <p class="precio">359$</p>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-warning text-center boton">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box col-md-4">
+                        <div class=" justify-content-md-center london">
+                            <p class="ahorro">Save 75$ pay only</p>
+                            <p class="precio">729$</p>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-warning text-center boton">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box col-md-4">
+                        <div class="justify-content-md-center dublin">
+                            <p class="ahorro">Save 35$ pay only</p>
+                            <p class="precio">519$</p>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-warning text-center boton">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="box col-md-4 col-center">
+                        <div class="justify-content-md-center paris">
+                            <p class="ahorro">Save 90$ pay only</p>
+                            <p class="precio">359$</p>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-warning text-center boton">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box col-md-4 col-center">
+                        <div class="justify-content-md-center amsterdam">
+                            <p class="ahorro">Save 75$ pay only</p>
+                            <p class="precio">729$</p>
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-warning text-center boton">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box col-md-4 col-center">
+                        <div class="justify-content-md-center rome">
+                            <p class="ahorro">Save 35$ pay only</p>
+                            <p class="precio">519$</p>
+
+                        </div>
+                        <div class="form-row text-center">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-outline-warning text-center boton">Comprar</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </a>
-</section>
-</body>
+    <section id="quien">
+        <a name="quienquien">
+            <div id="texto" class="jumbotron text-center">
+                <h4>QUIÉNES SOMOS</h4>
+                <br>
+                <p>GeeksHubs Travel es una agencia de viaje online creada en 2009 por un equipo de viajeros entudiastas que deciden hacer de su pasión por conocer el mundo un modo de vida. Desde nuestros inicios hemos diseñado más de 500 viajes organizados a diferentes destinos de Europa, Norteamérica y Asia. Nuestro objetivo ahora es ir ampliando horizontes poco a poco.</p>
+                <button type="button" class="btn btn-primary">DESCUBRIR</button>
+            </div>
+        </a>
+    </section>
 <section>
     <div></br></div>
     <div class="wrapper">
@@ -209,4 +391,5 @@
         </div>
     </div>
 </footer>
+</body>
 </html>
