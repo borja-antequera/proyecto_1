@@ -183,25 +183,27 @@
 }
 
 #quien{
-    background:url("../assets/images/traveler.jpg");
     background-size: cover;
+    background:url("../assets/images/traveler.jpg");
     -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     height: 500px;
 }
+
+
 #texto{
+    background-size: cover;
     background-color: white;
     height: 360px;
     width: 400px;
     position: relative;
     top:50px;
-
     left: 120px;
     padding: 20px;
 }
+
+
 #texto h4{
     text-decoration: underline yellow;
 }
-
-
